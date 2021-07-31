@@ -305,6 +305,10 @@ img {
    background: #f5f4fa;
 }
 
+.img-team {
+   margin-bottom: 30px;
+}
+
 .title-team {
    margin-bottom: 50px;
 
@@ -322,6 +326,19 @@ img {
    margin-left: -30px;
 }
 
+.social-icon {
+   width: 20px;
+   height: 20px;
+}
+
+.list-icons {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 206px;
+   height: 44px;
+   margin: 0 auto;
+}
 /* .item-team + .item-team {
    margin-left: 30px;
 } */
@@ -330,6 +347,7 @@ img {
    margin-top: 30px;
    margin-left: 30px;
    flex-basis: calc((100% - 120px) / 4);
+   padding-bottom: 30px;
 
    background: #ffffff;
    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -337,7 +355,8 @@ img {
 }
 
 .block-name-profession {
-   padding: 30px 0;
+   /* padding: 30px 0; */
+   margin-bottom: 16px;
 }
 
 .title-name-team {
