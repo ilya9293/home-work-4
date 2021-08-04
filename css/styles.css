@@ -456,6 +456,11 @@ img {
    padding: 60px 0px;
 }
 
+.container.background {
+   display: flex;
+   align-items: baseline;
+}
+
 footer .logo {
    padding-top: 0;
    padding-bottom: 0;
@@ -516,7 +521,6 @@ footer .logo {
 }
 
 /* Portfolio */
-
 .list-button {
    display: flex;
    justify-content: center;
